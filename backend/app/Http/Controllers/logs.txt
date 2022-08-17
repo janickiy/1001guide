@@ -1,0 +1,641 @@
+response: https://api.getyourguide.com/1/tours?q=palace-of-versailles&cond_language[]=ru&cond_language[]=en&sortfield=popularity&sortdirection=DESC&cnt_language=ru&currency=USD&limit=8
+
+request: https://api.getyourguide.com/1/tours?q=palace-of-versailles&cond_language[]=ru&cond_language[]=en&sortfield=popularity&sortdirection=DESC&cnt_language=ru&currency=USD&limit=8
+response: https://api.getyourguide.com/1/tours?q=palace-of-versailles&cond_language[]=ru&cond_language[]=en&sortfield=popularity&sortdirection=DESC&cnt_language=ru&currency=USD&limit=8
+
+request: https://api.getyourguide.com/1/tours?q=palace-of-versailles&cond_language[]=ru&cond_language[]=en&sortfield=popularity&sortdirection=DESC&cnt_language=ru&currency=USD&limit=8
+request: https://api.getyourguide.com/1/tours?q=palace-of-versailles&cond_language[]=ru&cond_language[]=en&sortfield=popularity&sortdirection=DESC&cnt_language=ru&currency=USD&limit=8
+response: array (
+  '_metadata' => 
+  array (
+    'descriptor' => 'GetYourGuide AG',
+    'method' => 'getTourByQueryAction',
+    'date' => '2020-11-22T16:33:06Z',
+    'status' => 'OK',
+    'query' => 'cnt_language=ru&cond_language%5B%5D=en&cond_language%5B%5D=ru&currency=USD&limit=8&q=palace-of-versailles&sortdirection=DESC&sortfield=popularity',
+    'availableLanguages' => 
+    array (
+      0 => 'en',
+      1 => 'es',
+      2 => 'fr',
+      3 => 'ja',
+      4 => 'ru',
+      5 => 'de',
+      6 => 'pt',
+      7 => 'zh',
+      8 => 'it',
+      9 => 'pl',
+      10 => 'ko',
+    ),
+    'exchange' => 
+    array (
+      'rate' => 0.8434085432058201,
+      'currency' => 'USD',
+    ),
+    'totalCount' => 312,
+    'limit' => 8,
+    'offset' => 0,
+  ),
+  'data' => 
+  array (
+    'tours' => 
+    array (
+      0 => 
+      array (
+        'tour_id' => 10425,
+        'tour_code' => 'deprecated',
+        'cond_language' => 
+        array (
+          0 => 'en',
+          1 => 'es',
+          2 => 'fr',
+        ),
+        'title' => 'Versailles: Skip-the-Line Day Tour & Transfer from Paris',
+        'abstract' => 'Witness the beauty and grandeur of Versailles, learn about its intriguing history, enjoy a delicious lunch close to the Grand Canal, and see some of the most magnificent sights in Paris on a full-day tour starting at your hotel.',
+        'bestseller' => false,
+        'certified' => true,
+        'overall_rating' => 4.6154,
+        'number_of_ratings' => 13,
+        'pictures' => 
+        array (
+          0 => 
+          array (
+            'id' => 'deprecated',
+            'url' => 'https://cdn.getyourguide.com/img/tour/5a4ce2a01233d.jpeg/[format_id].jpg',
+            'ssl_url' => 'https://cdn.getyourguide.com/img/tour/5a4ce2a01233d.jpeg/[format_id].jpg',
+            'verified' => false,
+          ),
+        ),
+        'coordinates' => 
+        array (
+          'lat' => 48.85693,
+          'long' => 2.3412,
+        ),
+        'price' => 
+        array (
+          'values' => 
+          array (
+            'amount' => 296.42,
+          ),
+          'description' => 'individual',
+        ),
+        'categories' => 
+        array (
+          0 => 
+          array (
+            'category_id' => 4,
+            'name' => 'Bus & Minivan Tours',
+          ),
+        ),
+        'locations' => 
+        array (
+          0 => 
+          array (
+            'location_id' => 965,
+            'type' => 'area',
+            'name' => 'Ile-de-France',
+            'english_name' => 'Ile-de-France',
+            'country' => 'FR',
+            'coordinates' => 
+            array (
+              'lat' => 48.680809,
+              'long' => 2.50261,
+            ),
+          ),
+        ),
+        'url' => 'https://www.getyourguide.ru/paris-l16/versailles-full-day-tour-from-paris-t10425/?partner_id=75R10C0&psrc=partner_api&currency=USD',
+        'durations' => 
+        array (
+          0 => 
+          array (
+            'duration' => 8,
+            'unit' => 'hour',
+          ),
+        ),
+      ),
+      1 => 
+      array (
+        'tour_id' => 10428,
+        'tour_code' => 'deprecated',
+        'cond_language' => 
+        array (
+          0 => 'en',
+          1 => 'es',
+          2 => 'fr',
+        ),
+        'title' => 'Full-Day Giverny & Versailles Tour by Minibus',
+        'abstract' => 'Enjoy the elegance and beauty of Versailles, palace of the French royalty and the little village Giverny, where Claude Monet lived for most of his life. Experience the uniqueness of both places in small groups and with a multilingual guide.',
+        'bestseller' => false,
+        'certified' => true,
+        'overall_rating' => 4.5417,
+        'number_of_ratings' => 24,
+        'pictures' => 
+        array (
+          0 => 
+          array (
+            'id' => 'deprecated',
+            'url' => 'https://cdn.getyourguide.com/img/tour/5e049af98a496.jpeg/[format_id].jpg',
+            'ssl_url' => 'https://cdn.getyourguide.com/img/tour/5e049af98a496.jpeg/[format_id].jpg',
+            'verified' => false,
+          ),
+        ),
+        'coordinates' => 
+        array (
+          'lat' => 48.85693,
+          'long' => 2.3412,
+        ),
+        'price' => 
+        array (
+          'values' => 
+          array (
+            'amount' => 296.42,
+          ),
+          'description' => 'individual',
+        ),
+        'categories' => 
+        array (
+          0 => 
+          array (
+            'category_id' => 4,
+            'name' => 'Bus & Minivan Tours',
+          ),
+        ),
+        'locations' => 
+        array (
+          0 => 
+          array (
+            'location_id' => 317,
+            'type' => 'poi',
+            'name' => 'Palace of Versailles',
+            'english_name' => 'Palace of Versailles',
+            'country' => 'FR',
+            'coordinates' => 
+            array (
+              'lat' => 48.8048649,
+              'long' => 2.1203554,
+            ),
+            'parent_id' => 16,
+          ),
+        ),
+        'url' => 'https://www.getyourguide.ru/paris-l16/full-day-giverny-versailles-tour-t10428/?partner_id=75R10C0&psrc=partner_api&currency=USD',
+        'durations' => 
+        array (
+          0 => 
+          array (
+            'duration' => 9,
+            'unit' => 'hour',
+          ),
+        ),
+      ),
+      2 => 
+      array (
+        'tour_id' => 13990,
+        'tour_code' => 'deprecated',
+        'cond_language' => 
+        array (
+          0 => 'en',
+        ),
+        'title' => 'From Paris: Skip-the-Line Versailles Palace and Gardens Tour',
+        'abstract' => 'Experience the opulence of the Palace and Gardens of Versailles on a half-day excursion from Paris. Marvel at the spectacular interior of the palace and the manicured gardens and rolling lawns surrounding it. See the Fountain Show or Musical Gardens.',
+        'bestseller' => false,
+        'certified' => true,
+        'overall_rating' => 4.3478,
+        'number_of_ratings' => 23,
+        'pictures' => 
+        array (
+          0 => 
+          array (
+            'id' => 'deprecated',
+            'url' => 'https://cdn.getyourguide.com/img/tour/59cbbaf2e47a3.jpeg/[format_id].jpg',
+            'ssl_url' => 'https://cdn.getyourguide.com/img/tour/59cbbaf2e47a3.jpeg/[format_id].jpg',
+            'verified' => false,
+          ),
+        ),
+        'coordinates' => 
+        array (
+          'lat' => 48.85693,
+          'long' => 2.3412,
+        ),
+        'price' => 
+        array (
+          'values' => 
+          array (
+            'amount' => 69.95,
+          ),
+          'description' => 'individual',
+        ),
+        'categories' => 
+        array (
+          0 => 
+          array (
+            'category_id' => 11,
+            'name' => 'Train Tours',
+          ),
+        ),
+        'locations' => 
+        array (
+          0 => 
+          array (
+            'location_id' => 16,
+            'type' => 'city',
+            'name' => 'Paris',
+            'english_name' => 'Paris',
+            'country' => 'FR',
+            'coordinates' => 
+            array (
+              'lat' => 48.85693,
+              'long' => 2.3412,
+            ),
+            'parent_id' => 965,
+          ),
+        ),
+        'url' => 'https://www.getyourguide.ru/paris-l16/skip-the-line-tour-of-the-palace-and-gardens-of-versailles-t13990/?partner_id=75R10C0&psrc=partner_api&currency=USD',
+        'durations' => 
+        array (
+          0 => 
+          array (
+            'duration' => 4,
+            'unit' => 'hour',
+          ),
+        ),
+      ),
+      3 => 
+      array (
+        'tour_id' => 10660,
+        'tour_code' => 'deprecated',
+        'cond_language' => 
+        array (
+          0 => 'en',
+          1 => 'es',
+          2 => 'ja',
+        ),
+        'title' => 'From Paris: Full-Day Guided Tour of Versailles with Lunch',
+        'abstract' => 'Discover Versailles Palace and the Trianons on this full-day tour from Paris. Visit the majestic home of Louis XIV, and the center of French royalty, with your expert guide. Stroll the Gardens of Versailles, and explore Marie-Antoinette\'s estate.',
+        'bestseller' => false,
+        'certified' => true,
+        'overall_rating' => 4.5455,
+        'number_of_ratings' => 55,
+        'pictures' => 
+        array (
+          0 => 
+          array (
+            'id' => 'deprecated',
+            'url' => 'https://cdn.getyourguide.com/img/tour/5a4b8b92dc38b.jpeg/[format_id].jpg',
+            'ssl_url' => 'https://cdn.getyourguide.com/img/tour/5a4b8b92dc38b.jpeg/[format_id].jpg',
+            'verified' => false,
+          ),
+        ),
+        'coordinates' => 
+        array (
+          'lat' => 48.85693,
+          'long' => 2.3412,
+        ),
+        'price' => 
+        array (
+          'values' => 
+          array (
+            'amount' => 182.59,
+          ),
+          'description' => 'individual',
+        ),
+        'categories' => 
+        array (
+          0 => 
+          array (
+            'category_id' => 1,
+            'name' => 'Tours',
+          ),
+        ),
+        'locations' => 
+        array (
+          0 => 
+          array (
+            'location_id' => 965,
+            'type' => 'area',
+            'name' => 'Ile-de-France',
+            'english_name' => 'Ile-de-France',
+            'country' => 'FR',
+            'coordinates' => 
+            array (
+              'lat' => 48.680809,
+              'long' => 2.50261,
+            ),
+          ),
+        ),
+        'url' => 'https://www.getyourguide.ru/paris-l16/daytrip-from-paris-to-versailles-and-trianons-t10660/?partner_id=75R10C0&psrc=partner_api&currency=USD',
+        'durations' => 
+        array (
+          0 => 
+          array (
+            'duration' => 9,
+            'unit' => 'hour',
+          ),
+        ),
+      ),
+      4 => 
+      array (
+        'tour_id' => 24909,
+        'tour_code' => 'deprecated',
+        'cond_language' => 
+        array (
+          0 => 'ru',
+          1 => 'en',
+          2 => 'es',
+          3 => 'de',
+          4 => 'pt',
+          5 => 'zh',
+          6 => 'fr',
+          7 => 'it',
+          8 => 'ja',
+          9 => 'pl',
+          10 => 'ko',
+        ),
+        'title' => 'Versailles Palace & Gardens: Ticket, Audio Guide & Transfer',
+        'abstract' => 'Travel by air-conditioned bus from Paris, skip the long lines and enjoy a self-guided audio tour of the palace. After, explore the beautiful gardens with the Grand and Petit Trianon, and the Estate of Marie Antoinette.',
+        'bestseller' => false,
+        'certified' => true,
+        'overall_rating' => 4.3504,
+        'number_of_ratings' => 802,
+        'pictures' => 
+        array (
+          0 => 
+          array (
+            'id' => 'deprecated',
+            'url' => 'https://cdn.getyourguide.com/img/tour/5d592b4e53bdd.jpeg/[format_id].jpg',
+            'ssl_url' => 'https://cdn.getyourguide.com/img/tour/5d592b4e53bdd.jpeg/[format_id].jpg',
+            'verified' => true,
+          ),
+        ),
+        'coordinates' => 
+        array (
+          'lat' => 48.85693,
+          'long' => 2.3412,
+        ),
+        'price' => 
+        array (
+          'values' => 
+          array (
+            'amount' => 73.51,
+          ),
+          'description' => 'individual',
+        ),
+        'categories' => 
+        array (
+          0 => 
+          array (
+            'category_id' => 4,
+            'name' => 'Bus & Minivan Tours',
+          ),
+        ),
+        'locations' => 
+        array (
+          0 => 
+          array (
+            'location_id' => 317,
+            'type' => 'poi',
+            'name' => 'Palace of Versailles',
+            'english_name' => 'Palace of Versailles',
+            'country' => 'FR',
+            'coordinates' => 
+            array (
+              'lat' => 48.8048649,
+              'long' => 2.1203554,
+            ),
+            'parent_id' => 16,
+          ),
+        ),
+        'url' => 'https://www.getyourguide.ru/paris-l16/skip-the-line-versailles-palace-and-gardens-half-day-tour-t24909/?partner_id=75R10C0&psrc=partner_api&currency=USD',
+        'durations' => 
+        array (
+          0 => 
+          array (
+            'duration' => 4,
+            'unit' => 'hour',
+          ),
+        ),
+      ),
+      5 => 
+      array (
+        'tour_id' => 280827,
+        'tour_code' => 'deprecated',
+        'cond_language' => 
+        array (
+          0 => 'en',
+          1 => 'es',
+        ),
+        'title' => 'Mexico City: Palaces and Gossip from Colonial Times',
+        'abstract' => 'Visit the most beautiful colonial palaces and learn about the gossip from the royal families. Learn about how people in those days used to live, what they did, how they dressed, and how they used the different palace rooms.',
+        'bestseller' => false,
+        'certified' => true,
+        'overall_rating' => 5,
+        'number_of_ratings' => 2,
+        'pictures' => 
+        array (
+          0 => 
+          array (
+            'id' => 'deprecated',
+            'url' => 'https://cdn.getyourguide.com/img/tour/5d7fdd1fde1d3.jpeg/[format_id].jpg',
+            'ssl_url' => 'https://cdn.getyourguide.com/img/tour/5d7fdd1fde1d3.jpeg/[format_id].jpg',
+            'verified' => false,
+          ),
+        ),
+        'coordinates' => 
+        array (
+          'lat' => 19.4319,
+          'long' => -99.132851,
+        ),
+        'price' => 
+        array (
+          'values' => 
+          array (
+            'amount' => 41.38,
+          ),
+          'description' => 'individual',
+        ),
+        'categories' => 
+        array (
+          0 => 
+          array (
+            'category_id' => 1,
+            'name' => 'Tours',
+          ),
+        ),
+        'locations' => 
+        array (
+          0 => 
+          array (
+            'location_id' => 126123,
+            'type' => 'poi',
+            'name' => 'Banamex Culture Palace',
+            'english_name' => 'Banamex Culture Palace',
+            'country' => 'MX',
+            'coordinates' => 
+            array (
+              'lat' => 19.4336391,
+              'long' => -99.1390459,
+            ),
+            'parent_id' => 194,
+          ),
+        ),
+        'url' => 'https://www.getyourguide.ru/mexico-city-l194/mexico-city-palaces-counts-and-viceroyal-gossip-t280827/?partner_id=75R10C0&psrc=partner_api&currency=USD',
+        'durations' => 
+        array (
+          0 => 
+          array (
+            'duration' => 3,
+            'unit' => 'hour',
+          ),
+        ),
+      ),
+      6 => 
+      array (
+        'tour_id' => 3205,
+        'tour_code' => 'deprecated',
+        'cond_language' => 
+        array (
+          0 => 'ru',
+          1 => 'en',
+          2 => 'es',
+          3 => 'fr',
+          4 => 'de',
+          5 => 'it',
+          6 => 'zh',
+          7 => 'pt',
+          8 => 'ja',
+        ),
+        'title' => 'City Sightseeing Edinburgh: 24-Hour Hop-on Hop-off Bus Tour',
+        'abstract' => 'Hop-on to a City Sightseeing Edinburgh bus tour and enjoy unlimited hop on hop off for 24 hours. Discover sights such as Edinburgh Castle and the Grassmarket, as you travel on an open-top, double-decker bus with panoramic views of the city.',
+        'bestseller' => false,
+        'certified' => true,
+        'overall_rating' => 4.5386,
+        'number_of_ratings' => 1530,
+        'pictures' => 
+        array (
+          0 => 
+          array (
+            'id' => 'deprecated',
+            'url' => 'https://cdn.getyourguide.com/img/tour/520ba793ce2d6.jpeg/[format_id].jpg',
+            'ssl_url' => 'https://cdn.getyourguide.com/img/tour/520ba793ce2d6.jpeg/[format_id].jpg',
+            'verified' => true,
+          ),
+        ),
+        'coordinates' => 
+        array (
+          'lat' => 55.953252,
+          'long' => -3.188267,
+        ),
+        'price' => 
+        array (
+          'values' => 
+          array (
+            'amount' => 21.26,
+          ),
+          'description' => 'individual',
+        ),
+        'categories' => 
+        array (
+          0 => 
+          array (
+            'category_id' => 4,
+            'name' => 'Bus & Minivan Tours',
+          ),
+        ),
+        'locations' => 
+        array (
+          0 => 
+          array (
+            'location_id' => 3562,
+            'type' => 'poi',
+            'name' => 'Holyrood Palace',
+            'english_name' => 'Holyrood Palace',
+            'country' => 'GB',
+            'coordinates' => 
+            array (
+              'lat' => 55.952714,
+              'long' => -3.172272,
+            ),
+            'parent_id' => 44,
+          ),
+        ),
+        'url' => 'https://www.getyourguide.ru/edinburgh-l44/24-hour-edinburgh-hop-on-hop-off-tour-t3205/?partner_id=75R10C0&psrc=partner_api&currency=USD',
+        'durations' => 
+        array (
+        ),
+      ),
+      7 => 
+      array (
+        'tour_id' => 53117,
+        'tour_code' => 'deprecated',
+        'cond_language' => 
+        array (
+          0 => 'en',
+          1 => 'fr',
+        ),
+        'title' => 'Avignon 3-Hour Walking Tour & Wine Tasting',
+        'abstract' => 'Explore the historical center of Avignon on a 3-hour walking tour with your English-speaking guide. Visit the spectacular Gothic-style Palais des Papes (Popes\' Palace), learn about the region\'s rich-history, and enjoy a glass of Côte du Rhöne wine.',
+        'bestseller' => false,
+        'certified' => true,
+        'overall_rating' => 4.7778,
+        'number_of_ratings' => 9,
+        'pictures' => 
+        array (
+          0 => 
+          array (
+            'id' => 'deprecated',
+            'url' => 'https://cdn.getyourguide.com/img/tour/591dc19016391.jpeg/[format_id].jpg',
+            'ssl_url' => 'https://cdn.getyourguide.com/img/tour/591dc19016391.jpeg/[format_id].jpg',
+            'verified' => true,
+          ),
+        ),
+        'coordinates' => 
+        array (
+          'lat' => 43.953442,
+          'long' => 4.80601,
+        ),
+        'price' => 
+        array (
+          'values' => 
+          array (
+            'amount' => 65.21,
+          ),
+          'description' => 'individual',
+        ),
+        'categories' => 
+        array (
+          0 => 
+          array (
+            'category_id' => 1,
+            'name' => 'Tours',
+          ),
+        ),
+        'locations' => 
+        array (
+          0 => 
+          array (
+            'location_id' => 14,
+            'type' => 'city',
+            'name' => 'Avignon',
+            'english_name' => 'Avignon',
+            'country' => 'FR',
+            'coordinates' => 
+            array (
+              'lat' => 43.953442,
+              'long' => 4.80601,
+            ),
+            'parent_id' => 32433,
+          ),
+        ),
+        'url' => 'https://www.getyourguide.ru/avignon-l14/avignon-3-hour-walking-tour-t53117/?partner_id=75R10C0&psrc=partner_api&currency=USD',
+        'durations' => 
+        array (
+          0 => 
+          array (
+            'duration' => 3,
+            'unit' => 'hour',
+          ),
+        ),
+      ),
+    ),
+  ),
+)
+

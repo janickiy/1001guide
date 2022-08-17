@@ -1,0 +1,28 @@
+User-agent: *
+Disallow: /*?*
+Disallow: /*?
+Disallow: /?
+
+User-agent: Yandex
+Disallow: /*?*
+Disallow: /*?
+Disallow: /?
+Disallow: /en/
+Disallow: /tr/
+Disallow: /sv/
+Disallow: /da/
+Disallow: /pt/
+Disallow: /pl/
+Disallow: /nl/
+Disallow: /it/
+Disallow: /no/
+Disallow: /sv/
+Disallow: /fi/
+Disallow: /kr/
+Disallow: /ko/
+Disallow: /ja/
+Disallow: /fr/
+Disallow: /de/
+Disallow: /es/
+
+Host: https://qwart.digital

@@ -1,0 +1,36 @@
+{
+    "name": "danielme85/laravel-cconverter",
+    "description": "Laravel 5 plug-in for currency conversion",
+    "keywords": ["laravel","laravel-5", "currency", "conversion", "finance"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Mellum",
+            "email": "mellum@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "illuminate/support": ">=5.4",
+        "guzzlehttp/guzzle": "^6.0",
+        "gerardojbaez/money": "^0.3"
+    },
+    "require-dev": {
+        "orchestra/testbench": ">=3.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "danielme85\\CConverter\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "danielme85\\CConverter\\CConverterServiceProvider"
+            ],
+            "aliases": {
+                "Currency": "danielme85\\CConverter\\CConverter"
+            }
+        }
+    }
+}
